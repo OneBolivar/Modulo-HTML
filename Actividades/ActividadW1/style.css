@@ -1,13 +1,34 @@
+/*Aqui se modifica unicamente el logo del navbar*/
+.Logo img{
+    height: 35px;
+    width: 35px;
+}
+
 /*Aqui se edita todo el header*/
-.header{
-    font-size: 25px;
-    color: white;
+.navbar{
+
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    align-items: center;          
+    padding: 10px 20px; /*Margenes de la navbar (10px --> Arriba/Abajo) (20px --> Derecha/Izquierda)*/
     margin: -10px;
-    background-color: gray;
+    background-color: #333;        
+    color: white;
+
     
 }
+/*-----------------------------------------------------------------------------*/
+/*Aqui se editan los links de la navbar*/
+.links {
+    display: flex;
+    gap: 20px;  
+                 
+}
+.links a{
+    
+    color: white;
+}
+/*------------------------------------------------------------------------------*/
 /*Aqui se modifica la parte 1 (Primer fondo con texto) de la pagina*/
 .Parte1{
     color: white;
@@ -29,8 +50,8 @@
 
 /*Aqui se modifica la imagen principal 1*/
 .Imagen1{
-    display: grid;
-    grid-template-rows: auto auto; /* Una fila arriba y otra abajo */
+    display: grid; /*Sirve para modificar la informacion en filas y columnas*/
+    grid-template-rows: auto auto; /* Sirve para establecer cuántas filas tendrá tu diseño y qué altura tendrá cada una.*/
     gap: 10px;
 }
 
@@ -56,12 +77,24 @@ img {
   object-fit: cover;
 }
 
-/*Aqui se modifica el contenedor principal*/
+/*Aqui se modifica el contenedor secundario*/
 .Contenedor_Secundario{
     display: grid;
-     /* Divide en 2 columnas: la 1ra ocupa el 35% y la 2da el resto (1fr) */
-    grid-template-columns: 35% 1fr; 
+     
+    grid-template-columns: 35% 1fr; /* Divide en 2 columnas: la 1ra ocupa el 35% y la 2da el resto (1 fraccion(Unidad de medida flexible) */
     gap: 20px; 
     padding: 20px;
     background-color: gray;
+}
+
+/*Aqui se modifica el tercer contenedor */
+.Contenedor_Terciario{
+    text-align: center;
+}
+
+.Cuarto_Contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1890px;
+    
 }
