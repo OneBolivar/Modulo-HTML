@@ -1,3 +1,4 @@
+
 *{
     margin: 10;
     padding: 0;
@@ -31,28 +32,17 @@ a:hover {
   color: orange;
 }
 /*Aqui se modifica el header del index*/
-header{
 
-
-}
 
 /*links del header*/
 .links ul{
     font-size: 20px;
 }
-.Sobre_mi{
+/*Aqui se edita las decoraciones globales de las diferentes secciones*/
+.Decoraciones{
     background-color: #333;
 }
-/*Aqui se modifica la seccion proyectos del index*/
-.Proyectos{
     
-    background-color: #333;
-}
-/*Aqui se modifican los a de la seccion proyectos del index*/
-.Proyectos a{
-    display: flex;
-}
-
 
 /*--------------------------------------------------------------------------------------*/
 
