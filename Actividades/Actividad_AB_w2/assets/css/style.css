@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+body header {
+  background-color: green; }
+body main {
+  display: grid;
+  grid-template-columns: 35% 1fr; }
+  body main aside {
+    background-color: gray; }
+  body main .arriba_uno {
+    background-color: red; }
+  body main .primera_parte_abajo {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    body main .primera_parte_abajo .izquierda_uno {
+      background-color: blueviolet; }
+    body main .primera_parte_abajo .derecha_uno {
+      background-color: peru; }
+body footer {
+  background-color: aqua; }
+
+/*# sourceMappingURL=style.css.map */
