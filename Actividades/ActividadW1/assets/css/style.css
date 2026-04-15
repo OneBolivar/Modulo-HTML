@@ -16,7 +16,6 @@ body {
   /*Aqui se modifica el contenedor secundario*/
   /*Aqui se modifica el tercer contenedor */
   /*Aqui se edita el cuarto contenedor en general*/
-  /*Aqui se edita los div (mini contenedores) para los logos*/
   /*Aqui se editan los logos*/
   /*Aqui se edita el footer*/ }
   body header {
@@ -88,12 +87,22 @@ body {
     grid-template-columns: repeat(3, 1fr);
     width: 1890px;
     background-color: white;
-    color: black; }
+    color: black;
+    /*Aqui se edita los div (mini contenedores) para los logos*/ }
+    body .Cuarto_Contenedor div {
+      border-radius: 50%;
+      display: inline-block;
+      max-width: 550px;
+      /*Aqui se edita el tamaño de las imagenes (logos)*/ }
+      body .Cuarto_Contenedor div img {
+        height: 50px;
+        width: 100px; }
   body .Cuarto_Contenedor div {
     border-radius: 50%/40%;
     display: inline-block;
     max-width: 550px;
-    background-color: blanchedalmond; }
+    background-color: #680ba3;
+    color: white; }
   body .Cuarto_Contenedor div img {
     height: 50px;
     width: 100px; }

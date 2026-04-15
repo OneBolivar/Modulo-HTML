@@ -58,3 +58,6 @@ Propiedades y Estilos CSS
             align-items: Alinea los elementos en el eje cruzado (perpendicular al principal).
             stretch (por defecto), center, flex-start, flex-end, baseline.
             gap: Define el espacio exacto entre los elementos sin usar márgenes. 
+
+SASS: 
+sass --watch assets/sass/styles.scss assets/css/style.css

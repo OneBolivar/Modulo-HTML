@@ -1,5 +1,6 @@
 /*Variables generales*/
 $Color_Fondo: #333;
+$Color_Div_Juegos: rgb(104, 11, 163);
 /*Aqui se edita las configuraciones generales*/
 *{
     padding: 0;
@@ -70,6 +71,7 @@ body{
         gap: 10px;
 
     }
+    
     /*NO TOCAR (Aqui se modifican las imagenes para que tengan el tamaño y la forma adecuados*/
     img {
     /* Hace que la imagen ocupe todo el ancho disponible de su contenedor */
@@ -106,15 +108,26 @@ body{
         width: 1890px;
         background-color: white;
         color: black;
+    /*Aqui se edita los div (mini contenedores) para los logos*/
+        div{
+        border-radius: 50%  ;
+        display: inline-block;
+        max-width: 550px;
         
+    /*Aqui se edita el tamaño de las imagenes (logos)*/
+        img{
+            height: 50px;
+            width: 100px;            
+        }            
+        }
         
     }
-    /*Aqui se edita los div (mini contenedores) para los logos*/
     .Cuarto_Contenedor div{
         border-radius: 50% / 40% ;
         display: inline-block;
         max-width: 550px;
-        background-color: blanchedalmond;
+        background-color:$Color_Div_Juegos;
+        color: white;
 
     }
     /*Aqui se editan los logos*/
