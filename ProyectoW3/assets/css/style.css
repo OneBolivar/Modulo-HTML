@@ -15,10 +15,16 @@ body {
     align-items: center;
     justify-content: space-between; }
     body header .boton-menu {
-      display: none; }
+      display: none;
+      background-color: gray;
+      color: white;
+      padding: 15px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease; }
+      body header .boton-menu:hover {
+        background-color: purple; }
     @media (max-width: 597px) {
       body header .boton-menu {
-        /**/
         display: block; }
       body header nav {
         /*Propiedades exclusivas para el menu hamburguesa*/

@@ -1,0 +1,112 @@
+* {
+    margin: 10;
+
+    padding: 0;
+    margin-right: 10;
+}
+
+body {
+    background-color: gray;
+    font-family: monospace;
+
+    header {
+
+        /*Aqui se modifica el boton, se coloca display none para que no se vea en pantalla grande*/
+        .boton-menu {
+            display: none;
+            background-color: gray;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+             &:hover {
+                    background-color: purple;
+                }
+        }
+
+        /*Condicional del media query, si es menor a 897 px entonces se hara la condicion puesta*/
+        @media (max-width: 597px) {
+            .boton-menu {
+                display: block;
+
+               
+            }
+
+            nav {
+                /*Propiedades exclusivas para el menu hamburguesa*/
+                bottom: 1px;
+                right: 28px;
+                display: flex;
+                position: relative;
+                
+                background-color: rgba(3, 215, 247, 0.391);
+                display: none;
+
+                &.active {
+                    display: block;
+                }
+
+            }
+
+        }
+
+        /*Aqui se editan los links para pantallas grandes*/
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h1 {
+            margin-left: 7%;
+            /*Esto es para el titulo (Portafolio)*/
+        }
+    }
+
+    .Seccion1 {
+
+        h2 {
+            text-align: center;
+        }
+
+        .Subtitulo {
+            text-align: center;
+        }
+
+        div img {
+            display: grid;
+            width: 100%;
+
+
+        }
+    }
+
+    .Seccion2 {
+        div {
+            display: grid;
+            text-align: center;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-right: -10;
+
+        }
+    }
+
+    footer {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        margin: -10px;
+
+        .LogoFooter {
+            img {
+                height: 35px;
+                width: 35px;
+            }
+        }
+
+
+    }
+
+
+}
