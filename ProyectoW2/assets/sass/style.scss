@@ -16,9 +16,9 @@ body{
         justify-content: space-between;
         h1{
             margin-left: 7%;/*Esto es para el titulo (Portafolio)*/
-        }
-        
+        }  
     }
+
     .Seccion1{
         
         h2{
@@ -42,10 +42,24 @@ body{
         grid-template-columns: 1fr 1fr 1fr ;      
         margin-right: -10;
  
-       }
-       
+       }  
     }
+    footer{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        margin: -10px;
+        .LogoFooter{
+            img{
+                height: 35px;
+                width: 35px;                
+            }
+        }
 
+
+    }
 
 
 }
