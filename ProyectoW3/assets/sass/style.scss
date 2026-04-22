@@ -10,7 +10,7 @@ body {
     font-family: monospace;
 
     header {
-
+        
         /*Aqui se modifica el boton, se coloca display none para que no se vea en pantalla grande*/
         .boton-menu {
             display: none;
@@ -40,19 +40,17 @@ body {
                 position: absolute;
                 background-color: rgb(109, 25, 148);
                 display: none;
-                
+
                 /*Aqui se activa (o sea propiedades especificas)*/
                 &.active {
                     display: flex;
                     flex-direction: column;
-                    a{
+
+                    a {
                         color: white;
                     }
                 }
-
-
             }
-
         }
 
         /*Aqui se editan los links para pantallas grandes*/
