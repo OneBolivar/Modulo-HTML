@@ -27,6 +27,7 @@ body {
 
         /*Condicional del media query, si es menor a 597 px entonces se hara la condicion puesta*/
         @media (max-width: 597px) {
+            
             .boton-menu {
                 display: block;
 
@@ -51,6 +52,7 @@ body {
                     }
                 }
             }
+
         }
 
         /*Aqui se editan los links para pantallas grandes*/
@@ -63,6 +65,9 @@ body {
             margin-left: 7%;
             /*Esto es para el titulo (Portafolio)*/
         }
+
+        /*----------*/
+
     }
 
     .Seccion1 {
