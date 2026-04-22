@@ -8,7 +8,7 @@ body {
   font-family: monospace; }
   body header {
     /*Aqui se modifica el boton, se coloca display none para que no se vea en pantalla grande*/
-    /*Condicional del media query, si es menor a 897 px entonces se hara la condicion puesta*/
+    /*Condicional del media query, si es menor a 597 px entonces se hara la condicion puesta*/
     /*Aqui se editan los links para pantallas grandes*/
     background-color: white;
     display: flex;
@@ -28,14 +28,17 @@ body {
         display: block; }
       body header nav {
         /*Propiedades exclusivas para el menu hamburguesa*/
-        bottom: 1px;
-        right: 28px;
-        display: flex;
-        position: relative;
-        background-color: rgba(3, 215, 247, 0.391);
-        display: none; }
+        top: 100px;
+        right: 20px;
+        position: absolute;
+        background-color: #6d1994;
+        display: none;
+        /*Aqui se activa (o sea propiedades especificas)*/ }
         body header nav.active {
-          display: block; } }
+          display: flex;
+          flex-direction: column; }
+          body header nav.active a {
+            color: white; } }
     body header h1 {
       margin-left: 7%;
       /*Esto es para el titulo (Portafolio)*/ }
