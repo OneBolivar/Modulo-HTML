@@ -52,16 +52,6 @@ body {
                 }
             }
 
-            .Seccion2 {
-                div {
-                    display: flex;
-                    text-align: center;
-                    flex-direction: row;
-                    margin-right: -10;
-                    
-                }
-
-            }
         }
         
         /*Aqui se editan los links para pantallas grandes*/
@@ -103,6 +93,7 @@ body {
             margin-right: -10;
             
         }
+
     }
 /*---------------------------------------------------------------*/
     footer {
@@ -122,18 +113,20 @@ body {
 
 
     }
+    /*---- media queries ----*/
 
-
-}
-
-
-/*Ya funciona, solo debemos encontrar la forma de alinearlo vertical y no horizontal*/
-@media (max-width: 597px) {
-    .Seccion2{
-        div{
-            background-color: red;
+    @media (max-width:597px) {
+        .Seccion2 {
+            div {
+                background-color: white;
+               display: flex;
+               flex-direction: column;
+               a{
+                color: black;
+               }
+            }
         }
-        
-        
     }
 }
+
+

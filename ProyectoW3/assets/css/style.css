@@ -8,7 +8,8 @@ body {
   font-family: monospace;
   /*------------------------------------------------------------*/
   /*-------------------------------------------------------------*/
-  /*---------------------------------------------------------------*/ }
+  /*---------------------------------------------------------------*/
+  /*---- media queries ----*/ }
   body header {
     /*Aqui se modifica el boton, se coloca display none para que no se vea en pantalla grande*/
     /*Condicional del media query, si es menor a 597 px entonces se hara la condicion puesta*/
@@ -41,12 +42,7 @@ body {
           display: flex;
           flex-direction: column; }
           body header nav.active a {
-            color: white; }
-      body header .Seccion2 div {
-        display: flex;
-        text-align: center;
-        flex-direction: row;
-        margin-right: -10; } }
+            color: white; } }
     body header h1 {
       margin-left: 7%;
       /*Esto es para el titulo (Portafolio)*/ }
@@ -71,10 +67,12 @@ body {
     body footer .LogoFooter img {
       height: 35px;
       width: 35px; }
-
-/*Ya funciona, solo debemos encontrar la forma de alinearlo vertical y no horizontal*/
-@media (max-width: 597px) {
-  .Seccion2 div {
-    background-color: red; } }
+  @media (max-width: 597px) {
+    body .Seccion2 div {
+      background-color: white;
+      display: flex;
+      flex-direction: column; }
+      body .Seccion2 div a {
+        color: black; } }
 
 /*# sourceMappingURL=style.css.map */
