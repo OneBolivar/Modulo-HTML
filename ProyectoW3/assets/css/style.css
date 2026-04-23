@@ -30,7 +30,7 @@ body {
       transition: background-color 0.3s ease; }
       body header .boton-menu:hover {
         background-color: purple; }
-    @media (max-width: 597px), (min-width: 597px) and (max-width: 1280px) {
+    @media (max-width: 597px), (min-width: 597px) and (max-width: 991.98px) {
       body header .boton-menu {
         display: block; }
       body header nav {

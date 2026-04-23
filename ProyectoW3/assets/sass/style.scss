@@ -3,13 +3,10 @@
     padding: 0;
     margin-right: 10;
 }
-
 body {
     background-color: gray;
     font-family: monospace;
-
     header {
-
         /*Aqui se modifica el boton, se coloca display none para que no se vea en pantalla grande*/
         .boton-menu {
             display: none;
@@ -25,7 +22,7 @@ body {
         }
 
         /*Condicional del media query, si es menor a 597 px entonces se hara la condicion puesta*/
-        @media (max-width: 597px), (min-width: 597px) and (max-width: 1280px) {
+        @media (max-width: 597px), (min-width: 597px) and (max-width: 991.98px) {
             .boton-menu {
                 display: block;
 
