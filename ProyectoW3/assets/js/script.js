@@ -19,6 +19,8 @@ function desplegar() {
     if (menu[0].classList.contains("active")) {
         boton[0].innerText = "≡";
 
+
+        
     }
     else {
         boton[0].innerText = "X";
