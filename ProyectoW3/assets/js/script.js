@@ -1,11 +1,11 @@
 //Ejecución de los comandos (generales) al cargar la página
-prompt("Ingrese su nombre:")/*El "prompt" sirve para pedir un dato en js*/
+let nombre =  prompt("Ingrese su nombre:")/*El "prompt" sirve para pedir un dato en js*/
 let Confirmar = confirm("¿Desea continuar?")/*El "confirm" sirve para pedir una confirmacion en js, devuelve un valor booleano (true o false) dependiendo de la respuesta del usuario*/
 if (Confirmar) {
-    alert("¡Gracias por continuar!")/*El "alert" sirve para mostrar un mensaje en js*/
+    alert("Hola" + " " + nombre + " " + "¡Gracias por continuar!")/*El "alert" sirve para mostrar un mensaje en js*/
 }
 else {
-    alert("¡Gracias por su visita!")/*El "alert" sirve para mostrar un mensaje en js*/
+    alert("Hola" + " " + nombre + " " + "¡Gracias por su visita!")/*El "alert" sirve para mostrar un mensaje en js*/
     window.close()/*El "window.close()" sirve para cerrar la ventana del navegador, pero solo funciona si la ventana fue abierta por un script, no funcionará si el usuario abrió la página directamente*/
 }
 
